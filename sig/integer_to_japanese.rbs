@@ -1,0 +1,11 @@
+module IntegerToJapanese
+  VERSION: String
+  # See the writing guide of rbs: https://github.com/ruby/rbs#guides
+  def to_hiragana: -> String?
+  def to_katakana: -> String?
+  def to_kanji: -> String?
+  def digits_map: -> String
+  def convert_digit_to_hiragana: -> Array[String|bool]
+  def convert_digit_to_kanji: -> Array[String|bool]
+  def convert_ten_numerals: -> String
+end

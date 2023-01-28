@@ -1,0 +1,20 @@
+module IntegerToJapanese
+  module Constants
+    HIRAGANA_MINUS: String
+    HIRAGANA_ZERO: String
+    HIRAGANA_WORDS: Array[String]
+    HIRAGANA_SUB_NUMERAL: Array[String]
+    HIRAGANA_NUMERAL: Array[String]
+    SPECIAL_HIRAGANA_SUB_NUMERALS: Hash[Array[Integer], String]
+    SPECIAL_NUMERALS: Hash[Array[Integer], String]
+    SPECIAL_TEN_NUMERALS: Hash[String, String]
+
+    KANJI_MINUS: String
+    KANJI_ZERO: String
+    KANJI_WORDS: Array[String]
+    KANJI_SUB_NUMERAL: Array[String]
+    KANJI_NUMERAL: Array[String]
+    SPECIAL_KANJI_SUB_NUMERALS: Hash[Array[Integer], String]
+    READABLE_LIMIT_NUMBER: Integer
+  end
+end
